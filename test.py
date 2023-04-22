@@ -6,7 +6,7 @@ import pytesseract
 import pandas as pd
 import time
 
-image = cv2.imread('car.jpeg')
+image = cv2.imread('car.jpg')
 
 image = imutils.resize(image, width=500)
 
